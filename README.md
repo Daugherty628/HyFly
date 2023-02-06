@@ -1,6 +1,6 @@
 # HyFly
-This repository is for the M2I HyFly group as a space to put code for reviewing, editing, and documenting.  
-## Expectations 
+This repository is for the M2I HyFly group as a space to put code for reviewing, editing, and documenting. HyFly is an M2I group at Iowa State University with the goal of making a hydrogen powered model aircraft. The reason HyFly wants to do this is to show that hydroden fuel cells are a viable alternative to traditional fuel types. 
+## Expectations
 ### Documentation / commenting
 When creating code for projects that multiple people will be working on over time documentation is important. People will need to be able to follow your program even if they aren't fluent in programming. That is why there should be a lot of comments in your code to help people follow along. If you know how to use Doxygen for documentation generationor something similar it would be apperiatated if you use it. When you create a new method, you should write a comment right above it and explain what the inputs and outputs are if there are any and what it will do. Whenever you create a section that took you a bit to figure out how to code it, you should be making a commen.t about it explaining it and what it does. 
 ### Best practices
@@ -11,5 +11,8 @@ It's a good idea to work in a separate branch if you are working on code in the 
 I know it may be annoying to have to type in a message for every commit that you do which is every time you what to save, but be specific on what you have done. Also try to commit and push as much as possible, like I said earlier this is escentially your save button. 
 ## Tasks 
 ### Hydrogen Flow Monitoring
-
+Monitoring the flow of the hydrogen into the fuel cell is important for understanding how efficiently the fuel cell is functioning. With effeective monitoring of the hydrogen flow we will be able to figure out if more or less hydrogen is need by the system based on the power required. With successful monitoring of the flow we will then be able to directly control the flow of hydrogen to the fuel cell. It is alsoimportant to be able to keep track of how much hydrogen is left in the system so we don't run out of fuel mid flight. It would be helpful if we can also determine how long, based on the current flow of hydrogen, until we run out of hydrogen.
 ### Power Output Monitoring
+Monitoring the power output of the fuel cell is important so that we can determine if the supply of hydrogen is suffienct enough to give the output that the aircraft requires or if the flow of hydrogen needs to be increased. It is also important to be able to monitor the power output in order to know if we have plateaued on power output and are wasting hydrogen at the current rate it is flowing. Conversely, we need to if there is no power output due to either lack of hydrogen or some other issue. 
+### Intergration 
+We will need the above two tasks of hydrogen flow monitoring and power output monitoring to be able to communicate effectively to be able to addjust the flow of hydrengen to meet the required needs of the aircraft while inflight. For example, take off will require more power output than steady level flight. It is important that the flow is adjusted accordingly to the different power reqirements of the engines. 
