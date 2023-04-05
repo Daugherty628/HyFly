@@ -1,5 +1,5 @@
-# HyFly
-This repository is for the M2I HyFly group as a space to put code for reviewing, editing, and documenting. HyFly is an M2I group at Iowa State University with the goal of making a hydrogen powered model aircraft. The reason HyFly wants to do this is to show that hydroden fuel cells are a viable alternative to traditional fuel types. 
+# FlyHy
+This repository is for the M2I FlyHy group as a space to put code for reviewing, editing, and documenting. FlyHy is an M2I group at Iowa State University with the goal of making a hydrogen powered model aircraft. The reason FlyHy wants to do this is to show that hydroden fuel cells are a viable alternative to traditional fuel types. 
 ## Expectations
 ### Documentation / commenting
 When creating code for projects that multiple people will be working on over time documentation is important. People will need to be able to follow your program even if they aren't fluent in programming. That is why there should be a lot of comments in your code to help people follow along. If you know how to use Doxygen for documentation generationor something similar it would be apperiatated if you use it. When you create a new method, you should write a comment right above it and explain what the inputs and outputs are if there are any and what it will do. Whenever you create a section that took you a bit to figure out how to code it, you should be making a commen.t about it explaining it and what it does. 
